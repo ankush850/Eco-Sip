@@ -37,7 +37,7 @@ export default function GoCupProduct() {
                 <h1 className="text-5xl font-bold text-foreground mb-4">
                   GoCup
                 </h1>
-                <p className="text-2xl text-primary font-bold mb-4">$39.99</p>
+                <p className="text-2xl text-primary font-bold mb-4">₹1299</p>
 
                 <p className="text-lg text-muted mb-8 leading-relaxed">
                   Collapsible and lightweight. Designed for on-the-go professionals who never compromise on quality. Perfect for commuters, travelers, and active lifestyles.
