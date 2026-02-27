@@ -47,13 +47,8 @@ export default function LifestyleGrid() {
                 src="/images/workspace.png"
                 alt="Workspace Ready"
                 fill
-<<<<<<< HEAD
                 priority
                 className="object-contain group-hover:scale-105 transition-transform duration-500"
-=======
-                className="object-contain"
-                className="object-cover group-hover:scale-110 transition-transform duration-500"
->>>>>>> b7dde336a7912b59f05cda1b15c4e48c3ae87ca8
               />
 
               <div className="absolute inset-0 flex items-end p-6">
