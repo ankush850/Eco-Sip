@@ -37,7 +37,7 @@ export default function CoreProduct() {
                 <h1 className="text-5xl font-bold text-foreground mb-4">
                   Core
                 </h1>
-                <p className="text-2xl text-primary font-bold mb-4">$1499</p>
+                <p className="text-2xl text-primary font-bold mb-4">₹1499</p>
 
                 <p className="text-lg text-muted mb-8 leading-relaxed">
                   Our flagship 24oz bottle designed for everyday hydration. Built from 100% recycled materials and engineered for maximum insulation and durability.
