@@ -48,6 +48,7 @@ export default function LifestyleGrid() {
                 alt="Workspace Ready"
                 fill
                 className="object-contain"
+                className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
 
               <div className="absolute inset-0 flex items-end p-6">
