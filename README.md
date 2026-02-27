@@ -8,7 +8,7 @@
 
  Everyday hydration reinvented. Smart reusable bottles made from recycled materials.
 
- ## 🌟 Features
+ ## Features
 
 ###  E-Commerce Functionality
 - **Product Showcase** - Three distinct product lines: Core, GoCup, and Pure
@@ -32,4 +32,39 @@
 - **Eco-Friendly Products** - Made from 100% recycled materials
 - **Product Ecosystem** - Three specialized hydration solutions
 - **Lifestyle Integration** - Designed for modern sustainable living
+
+
+##  System Architecture
+
+```mermaid
+graph TD
+    A[User Browser] --> B[Next.js App Router]
+    B --> C[React Components]
+    C --> D[UI Components]
+    C --> E[State Management]
+    C --> F[API Calls]
+    
+    D --> G[Radix UI Primitives]
+    D --> H[Tailwind CSS]
+    
+    E --> I[Cart Context]
+    I --> J[localStorage]
+    
+    F --> K[Razorpay API]
+    F --> L[Vercel Analytics]
+    
+    K --> M[Razorpay Gateway]
+    M --> N[Payment Processors]
+    
+    L --> O[Vercel Analytics Service]
+    
+    B --> P[Static Assets]
+    P --> Q[Images]
+    P --> R[Icons]
+    
+    B --> S[Server-side Rendering]
+    S --> T[Metadata Generation]
+    S --> U[Route Handling]
+    
+```
 
