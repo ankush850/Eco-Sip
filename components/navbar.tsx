@@ -23,9 +23,8 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-foreground hover:text-primary transition-colors">Products</Link>
-            <Link href="/" className="text-foreground hover:text-primary transition-colors">About</Link>
-            <Link href="/" className="text-foreground hover:text-primary transition-colors">Sustainability</Link>
+            <a href="#featured-collection" className="text-foreground hover:text-primary transition-colors">Products</a>
+            <a href="#eco-ecosystem" className="text-foreground hover:text-primary transition-colors">About</a>
             <Link href="/cart" className="relative text-foreground hover:text-primary transition-colors">
               <ShoppingCart size={24} />
               {cartCount > 0 && (
@@ -51,10 +50,9 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden pb-4 border-t border-border">
-            <Link href="/" className="block py-2 text-foreground hover:text-primary transition-colors">Products</Link>
-            <Link href="/" className="block py-2 text-foreground hover:text-primary transition-colors">About</Link>
-            <Link href="/" className="block py-2 text-foreground hover:text-primary transition-colors">Sustainability</Link>
-            <Link href="/cart" className="flex items-center gap-2 py-2 text-foreground hover:text-primary transition-colors">
+            <a href="#featured-collection" className="block py-2 text-foreground hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>Products</a>
+            <a href="#eco-ecosystem" className="block py-2 text-foreground hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>About</a>
+            <Link href="/cart" className="flex items-center gap-2 py-2 text-foreground hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>
               <ShoppingCart size={20} />
               <span>Cart {cartCount > 0 && `(${cartCount})`}</span>
             </Link>

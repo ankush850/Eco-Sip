@@ -4,18 +4,16 @@ import ProductEcosystem from '@/components/product-ecosystem'
 import FeaturedProducts from '@/components/featured-products'
 import LifestyleGrid from '@/components/lifestyle-grid'
 
-import Footer from '@/components/footer'
+
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden" style={{ scrollBehavior: 'smooth' }}>
       <Navbar />
       <Hero />
       <ProductEcosystem />
       <FeaturedProducts />
       <LifestyleGrid />
-      
-      <Footer />
     </main>
   )
 }

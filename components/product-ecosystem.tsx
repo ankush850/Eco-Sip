@@ -1,6 +1,6 @@
 export default function ProductEcosystem() {
   return (
-    <section className="py-20 bg-secondary-light/50">
+    <section id="eco-ecosystem" className="py-20 bg-secondary-light/50">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
