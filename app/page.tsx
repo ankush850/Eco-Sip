@@ -3,7 +3,7 @@ import Hero from '@/components/hero'
 import ProductEcosystem from '@/components/product-ecosystem'
 import FeaturedProducts from '@/components/featured-products'
 import LifestyleGrid from '@/components/lifestyle-grid'
-import AppPromo from '@/components/app-promo'
+
 import Footer from '@/components/footer'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <ProductEcosystem />
       <FeaturedProducts />
       <LifestyleGrid />
-      <AppPromo />
+      
       <Footer />
     </main>
   )
