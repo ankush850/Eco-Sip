@@ -37,7 +37,7 @@ export default function PureProduct() {
                 <h1 className="text-5xl font-bold text-foreground mb-4">
                   Pure
                 </h1>
-                <p className="text-2xl text-primary font-bold mb-4">$79.99</p>
+                <p className="text-2xl text-primary font-bold mb-4">₹499</p>
 
                 <p className="text-lg text-muted mb-8 leading-relaxed">
                   Our premium filtration bottle with integrated smart technology. Crystal clean water anywhere, anytime. Connect with the EcoSip app for real-time water quality monitoring.
